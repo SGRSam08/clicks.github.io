@@ -1,0 +1,96 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color: #58fee2;
+  
+}
+
+
+
+#heading{
+    background-image: url(img/download\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-family: Kdam Thmor Pro;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color:aliceblue;
+    border: solid 1px #58fee2;
+}
+
+
+#para{
+    padding: 5px;
+    display: flex;
+    font-family: Ubuntu;
+    font-size: large;
+    justify-content: center;
+    display: flexbox;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#end{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    margin-left: 695px;
+    background-color:#58fee2;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: inset 0 0 -4px ;
+}
+
+#end:hover{
+    background-color:aliceblue;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    #heading{
+        display: flex;
+        flex-direction: column;
+        font-family: Kdam Thmor Pro;
+        font-size:medium;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        background-color:aliceblue;
+        border: solid 1px #58fee2;
+    }
+
+    #para{
+        padding: 5px;
+        display: flex;
+        font-family: Ubuntu;
+        font-size: large;
+        justify-content: center;
+        display: flexbox;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    
+    #end{
+        display: flex;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: medium;
+        background-color:#58fee2;
+        margin-left: 120px;
+        cursor: pointer;
+        border: 2px solid;
+        border-radius: 10px;
+        box-shadow: inset 0 0 -4px ;
+    }
+
+
+}
